@@ -1,0 +1,31 @@
+# Build files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# CMake / Make
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE/project settings (optional)
+.vscode/
+.idea/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore compiled example binaries
+examples/*.exe
+examples/*.out
+examples/*.o
+
+# Optional: ignore any backup or temp files
+*~
+*.swp
